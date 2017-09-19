@@ -1,23 +1,21 @@
 package com.example.android.quakereport;
 
 /**
- * Created by janna on 9/14/2017.
+ * An {@link Earthquake} object contains information related to a single earthquake.
  */
-
 public class Earthquake {
 
     /** Magnitude of the earthquake */
     private double mMagnitude;
 
-    /* Location of the Earthquake */
+    /** Location of the earthquake */
     private String mLocation;
-
-    /* Date of the Earthquake */
-    private String mDate;
 
     /** Time of the earthquake */
     private long mTimeInMilliseconds;
 
+    /** Website URL of the earthquake */
+    private String mUrl;
 
     /**
      * Constructs a new {@link Earthquake} object.
@@ -26,11 +24,13 @@ public class Earthquake {
      * @param location is the location where the earthquake happened
      * @param timeInMilliseconds is the time in milliseconds (from the Epoch) when the
      *                           earthquake happened
+     * @param url is the website URL to find more details about the earthquake
      */
-    public Earthquake(double magnitude, String location, long timeInMilliseconds) {
+    public Earthquake(double magnitude, String location, long timeInMilliseconds, String url) {
         mMagnitude = magnitude;
         mLocation = location;
         mTimeInMilliseconds = timeInMilliseconds;
+        mUrl = url;
     }
 
     /**
@@ -40,14 +40,11 @@ public class Earthquake {
         return mMagnitude;
     }
 
-    /*Returns the location of earthquake */
-    public String getLocation(){
+    /**
+     * Returns the location of the earthquake.
+     */
+    public String getLocation() {
         return mLocation;
-    }
-
-    /*Returns the date of earthquake */
-    public String getDate(){
-        return mDate;
     }
 
     /**
@@ -57,5 +54,10 @@ public class Earthquake {
         return mTimeInMilliseconds;
     }
 
+    /**
+     * Returns the website URL to find more information about the earthquake.
+     */
+    public String getUrl() {
+        return mUrl;
+    }
 }
-
