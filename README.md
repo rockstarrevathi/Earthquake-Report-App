@@ -21,7 +21,9 @@ Pre-requisites
 If you need help finding an API, check out these resources:
 
 Programmable Web API Directory: http://www.programmableweb.com/apis/directory
+
 Google APIs Explorer: https://developers.google.com/apis-explorer/#p/
+
 Data.gov: http://data.gov
 
 
