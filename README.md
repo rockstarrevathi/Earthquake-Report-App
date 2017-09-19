@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # Earthquake-Report-App
-Json Parsing, Http Networking, Threads &amp; Parallelism 
+Json Parsing Done
 =======
 Quake Report App
 ===================================
@@ -17,5 +17,11 @@ Pre-requisites
 - Android SDK v23
 - Android Build Tools v23.0.2
 - Android Support Repository v23.3.0
+
+If you need help finding an API, check out these resources:
+
+Programmable Web API Directory: http://www.programmableweb.com/apis/directory
+Google APIs Explorer: https://developers.google.com/apis-explorer/#p/
+Data.gov: http://data.gov
 
 
